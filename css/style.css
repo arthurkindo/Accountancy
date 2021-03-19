@@ -1,0 +1,80 @@
+/* changing bootstrap style  */
+.collapse{
+    margin-left: 65%;
+}
+
+.main{
+    position: relative;
+}
+
+.main-div-1{
+    position: absolute;
+    /* top: 10rem; */
+    top: 20%;
+    text-align: center;
+}
+
+
+
+.main-div-span-1{
+    font-family: 'Arial Black';
+    font-size: 250%;
+    color:#393e46;
+    -webkit-text-stroke:1px aliceblue;
+    /* -webkit-text-stroke */
+}
+
+.main-div-span-2{
+    position: relative;
+    top: 50px;
+}
+
+/* giving background to main part  */
+
+header, .main{
+    /* background-image: url('main_div_img.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 600px; */
+    background: url('main_div_img.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/* styleing button and search box of main  */
+.btn{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.btn, #search-box{
+    border: 0;
+    border-radius: 50px;
+}
+
+#search-box{
+    opacity: 0.8;
+    
+}
+
+.main-search-button:hover{
+    background-color: #fce38a;
+}
+
+/* having icon in main  */
+.main-div-2{
+    position: absolute;
+    bottom: 1%;
+    text-align: center;
+}
+.main-div-2 > i{
+    background-color: #fce38a;
+    border-radius: 40px;
+}
+
+.main-div-2 > i:hover{
+    color: #f7fbfc;
+    border: 0;
+}
